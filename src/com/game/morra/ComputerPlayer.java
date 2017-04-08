@@ -1,4 +1,4 @@
-package com.game.players;
+package com.game.morra;
 
 import java.util.ArrayList;
 
