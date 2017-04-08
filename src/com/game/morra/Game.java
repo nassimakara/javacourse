@@ -1,10 +1,4 @@
 package com.game;
-/**
- * Created by alanpanno on 24/11/2015.
- */
-import com.game.players.ComputerPlayer;
-import com.game.players.GameInfo;
-import com.game.players.Player;
 
 import java.util.ArrayList;
 import java.util.Scanner;

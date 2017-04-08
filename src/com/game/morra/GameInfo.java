@@ -2,9 +2,6 @@ package com.game.players;
 
 import java.util.ArrayList;
 
-/**
- * Created by alanpanno on 24/11/2015.
- */
 public class GameInfo {
 
     private int humanRound;
