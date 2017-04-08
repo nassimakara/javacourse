@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_QW7okBxtEeeiOK1cjYY2rg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QW7okRxtEeeiOK1cjYY2rg" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QW7okhxtEeeiOK1cjYY2rg" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QW7okxxtEeeiOK1cjYY2rg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW7olBxtEeeiOK1cjYY2rg"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="Morra.uml#_QVZ-kBxtEeeiOK1cjYY2rg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW7olRxtEeeiOK1cjYY2rg"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QW7olhxtEeeiOK1cjYY2rg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QW7olxxtEeeiOK1cjYY2rg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_QW7omBxtEeeiOK1cjYY2rg">
+      <owner xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="Morra.uml#_QVZ-kBxtEeeiOK1cjYY2rg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QXmW8BxtEeeiOK1cjYY2rg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QXmW8RxtEeeiOK1cjYY2rg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QXmW8hxtEeeiOK1cjYY2rg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_QXmW8xxtEeeiOK1cjYY2rg">
+      <owner xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QX2OkBxtEeeiOK1cjYY2rg" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QX2OkRxtEeeiOK1cjYY2rg" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QX2OkhxtEeeiOK1cjYY2rg" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QX2OkxxtEeeiOK1cjYY2rg" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QX2OlBxtEeeiOK1cjYY2rg" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QX2OlRxtEeeiOK1cjYY2rg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QX2OlhxtEeeiOK1cjYY2rg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QX2OlxxtEeeiOK1cjYY2rg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QX2OmBxtEeeiOK1cjYY2rg" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QX2OmRxtEeeiOK1cjYY2rg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QX2OmhxtEeeiOK1cjYY2rg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QX2OmxxtEeeiOK1cjYY2rg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QX2OnBxtEeeiOK1cjYY2rg" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QX2OnRxtEeeiOK1cjYY2rg"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QX2OnhxtEeeiOK1cjYY2rg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QX2OnxxtEeeiOK1cjYY2rg"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QX2OoBxtEeeiOK1cjYY2rg" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QX2OoRxtEeeiOK1cjYY2rg"/>
+      </children>
+      <element xmi:type="uml:Activity" href="Morra.uml#_QXwH8BxtEeeiOK1cjYY2rg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QX2OohxtEeeiOK1cjYY2rg"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QX2OoxxtEeeiOK1cjYY2rg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QX2OpBxtEeeiOK1cjYY2rg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_QX2OpRxtEeeiOK1cjYY2rg">
+      <owner xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="Morra.uml#_QXwH8BxtEeeiOK1cjYY2rg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QX_YgBxtEeeiOK1cjYY2rg" type="UseCase" name="UseCase Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QX_YgRxtEeeiOK1cjYY2rg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QX_YghxtEeeiOK1cjYY2rg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_QX_YgxxtEeeiOK1cjYY2rg">
+      <owner xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_QYJwkBxtEeeiOK1cjYY2rg" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QYJwkRxtEeeiOK1cjYY2rg" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QYJwkhxtEeeiOK1cjYY2rg" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QYJwkxxtEeeiOK1cjYY2rg" type="Interaction_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QYJwlBxtEeeiOK1cjYY2rg" x="50"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QYJwlRxtEeeiOK1cjYY2rg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QYJwlhxtEeeiOK1cjYY2rg"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="Morra.uml#_QYDC4BxtEeeiOK1cjYY2rg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QYJwlxxtEeeiOK1cjYY2rg"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_QYJwmBxtEeeiOK1cjYY2rg" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_QYJwmRxtEeeiOK1cjYY2rg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_QYJwmhxtEeeiOK1cjYY2rg">
+      <owner xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="Morra.uml#_QYDC4BxtEeeiOK1cjYY2rg"/>
+  </notation:Diagram>
+</xmi:XMI>
