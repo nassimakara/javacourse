@@ -1,3 +1,6 @@
 /.project
 /build/
 /.classpath
+**/.DS_Store
+**/.project
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_nc6SMBxYEeeXXtVtTCvvDQ" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_nc6SMRxYEeeXXtVtTCvvDQ" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nc6SMhxYEeeXXtVtTCvvDQ" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nc6SMxxYEeeXXtVtTCvvDQ" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nc6SNBxYEeeXXtVtTCvvDQ" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nc6SNRxYEeeXXtVtTCvvDQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nc6SNhxYEeeXXtVtTCvvDQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nc6SNxxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nc6SOBxYEeeXXtVtTCvvDQ" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nc6SORxYEeeXXtVtTCvvDQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nc6SOhxYEeeXXtVtTCvvDQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nc6SOxxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nc6SPBxYEeeXXtVtTCvvDQ" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_nc6SPRxYEeeXXtVtTCvvDQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_nc6SPhxYEeeXXtVtTCvvDQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nc6SPxxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nc6SQBxYEeeXXtVtTCvvDQ" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nc6SQRxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <element xmi:type="uml:Activity" href="Morra.uml#_nc2AwBxYEeeXXtVtTCvvDQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nc6SQhxYEeeXXtVtTCvvDQ"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_nc6SQxxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_nc6SRBxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_nc6SRRxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="Morra.uml#_nc2AwBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ndGfcBxYEeeXXtVtTCvvDQ" type="PapyrusUMLStateMachineDiagram" name="StateMachine Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ndGfcRxYEeeXXtVtTCvvDQ" type="StateMachine_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ndGfchxYEeeXXtVtTCvvDQ" type="StateMachine_NameLabel">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndGfcxxYEeeXXtVtTCvvDQ" width="700" height="13"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ndGfdBxYEeeXXtVtTCvvDQ" type="StateMachine_RegionCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_ndGfdRxYEeeXXtVtTCvvDQ" type="Region_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ndGfdhxYEeeXXtVtTCvvDQ" source="RegionAnnotationKey">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ndGfdxxYEeeXXtVtTCvvDQ" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_ndGfeBxYEeeXXtVtTCvvDQ" type="Region_SubvertexCompartment">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndGfeRxYEeeXXtVtTCvvDQ"/>
+          </children>
+          <element xmi:type="uml:Region" href="Morra.uml#_ndEqQBxYEeeXXtVtTCvvDQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndGfehxYEeeXXtVtTCvvDQ" width="700" height="287"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndGfexxYEeeXXtVtTCvvDQ" y="13" width="700" height="287"/>
+      </children>
+      <element xmi:type="uml:StateMachine" href="Morra.uml#_nc_KsBxYEeeXXtVtTCvvDQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndGffBxYEeeXXtVtTCvvDQ" x="30" y="30" width="700" height="300"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ndGffRxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ndGffhxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ndGffxxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:StateMachine" href="Morra.uml#_nc_KsBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ndL_ABxYEeeXXtVtTCvvDQ" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ndL_ARxYEeeXXtVtTCvvDQ" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ndL_AhxYEeeXXtVtTCvvDQ" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ndL_AxxYEeeXXtVtTCvvDQ" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndL_BBxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="Morra.uml#_ndJiwBxYEeeXXtVtTCvvDQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndL_BRxYEeeXXtVtTCvvDQ"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ndL_BhxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ndL_BxxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ndL_CBxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="Morra.uml#_ndJiwBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ndPpYBxYEeeXXtVtTCvvDQ" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ndPpYRxYEeeXXtVtTCvvDQ" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ndPpYhxYEeeXXtVtTCvvDQ" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ndPpYxxYEeeXXtVtTCvvDQ" type="Interaction_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ndPpZBxYEeeXXtVtTCvvDQ" x="50"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ndPpZRxYEeeXXtVtTCvvDQ" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndPpZhxYEeeXXtVtTCvvDQ"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="Morra.uml#_ndObQBxYEeeXXtVtTCvvDQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ndPpZxxYEeeXXtVtTCvvDQ"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ndPpaBxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ndPpaRxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ndPpahxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="Morra.uml#_ndObQBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ndRekBxYEeeXXtVtTCvvDQ" type="UseCase" name="UseCase Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ndRekRxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ndRekhxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ndRekxxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ndTTwBxYEeeXXtVtTCvvDQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ndTTwRxYEeeXXtVtTCvvDQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ndTTwhxYEeeXXtVtTCvvDQ"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ndTTwxxYEeeXXtVtTCvvDQ">
+      <owner xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Morra.uml#_ncgpkBxYEeeXXtVtTCvvDQ"/>
+  </notation:Diagram>
+</xmi:XMI>
