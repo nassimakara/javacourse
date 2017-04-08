@@ -3,4 +3,14 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QVZ-kBxtEeeiOK1cjYY2rg" name="Interaction1"/>
   <packagedElement xmi:type="uml:Activity" xmi:id="_QXwH8BxtEeeiOK1cjYY2rg" name="Activity1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QYDC4BxtEeeiOK1cjYY2rg" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="Game Controller"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LylBsBxvEeeiOK1cjYY2rg" name="Player"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tUmxcBxwEeeiOK1cjYY2rg" name="Morra"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zGeCYBxwEeeiOK1cjYY2rg" name="Human">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_YJRB0ByAEeeiOK1cjYY2rg" name=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z1iu4BxwEeeiOK1cjYY2rg" name="Computer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0U8p4Bx_EeeiOK1cjYY2rg" name="Scoreboard"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ts8ngByAEeeiOK1cjYY2rg" client="_zGeCYBxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_XwzegByAEeeiOK1cjYY2rg" client="_z1iu4BxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
 </uml:Model>
