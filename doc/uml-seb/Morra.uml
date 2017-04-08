@@ -3,14 +3,89 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QVZ-kBxtEeeiOK1cjYY2rg" name="Interaction1"/>
   <packagedElement xmi:type="uml:Activity" xmi:id="_QXwH8BxtEeeiOK1cjYY2rg" name="Activity1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QYDC4BxtEeeiOK1cjYY2rg" name="Interaction2"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="Game Controller"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LylBsBxvEeeiOK1cjYY2rg" name="Player"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_tUmxcBxwEeeiOK1cjYY2rg" name="Morra"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_zGeCYBxwEeeiOK1cjYY2rg" name="Human">
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_YJRB0ByAEeeiOK1cjYY2rg" name=""/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="Game Controller">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_zD0GQByMEeeiOK1cjYY2rg" name="instanceCreated()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_4aCkEByMEeeiOK1cjYY2rg" name="assignOddsorEven()"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_z1iu4BxwEeeiOK1cjYY2rg" name="Computer"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_0U8p4Bx_EeeiOK1cjYY2rg" name="Scoreboard"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LylBsBxvEeeiOK1cjYY2rg" name="Player">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y22fkByLEeeiOK1cjYY2rg" name="SetFingers()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_iACRoByLEeeiOK1cjYY2rg" name="setFingers()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_kg0MUByLEeeiOK1cjYY2rg" name="evenOrOdds()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_c25_MByMEeeiOK1cjYY2rg" name="randomFingers()"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tUmxcBxwEeeiOK1cjYY2rg" name="Morra1" isAbstract="true" isActive="true">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_q-XzsByNEeeiOK1cjYY2rg" name="Enumeration1"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_rtLacByNEeeiOK1cjYY2rg" name="Enumeration2"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_si13IByNEeeiOK1cjYY2rg" name="Enumeration3"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_stJpsByNEeeiOK1cjYY2rg" name="Enumeration4"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_s0LewByNEeeiOK1cjYY2rg" name="Enumeration5"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_s2AqwByNEeeiOK1cjYY2rg" name="Enumeration6"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_s6ds8ByNEeeiOK1cjYY2rg" name="Enumeration7"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_tjGaQByNEeeiOK1cjYY2rg" name="Enumeration8"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_tqOV8ByNEeeiOK1cjYY2rg" name="Enumeration9"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_trTUAByNEeeiOK1cjYY2rg" name="Enumeration10"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ttynUByNEeeiOK1cjYY2rg" name="Enumeration11"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_t0P0oByNEeeiOK1cjYY2rg" name="Enumeration12"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_t--d8ByNEeeiOK1cjYY2rg" name="Enumeration13"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_uUI1oByNEeeiOK1cjYY2rg" name="Enumeration14"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_uV-BoByNEeeiOK1cjYY2rg" name="Enumeration15"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_vu_qEByNEeeiOK1cjYY2rg" name="Enumeration16"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_v--m0ByNEeeiOK1cjYY2rg" name="Enumeration17"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wAzLwByNEeeiOK1cjYY2rg" name="Enumeration18"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wLTyoByNEeeiOK1cjYY2rg" name="Enumeration19"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wNI-oByNEeeiOK1cjYY2rg" name="Enumeration20"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_1zPEcByNEeeiOK1cjYY2rg" name="Enumeration21"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_19P8EByNEeeiOK1cjYY2rg" name="Enumeration22"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_1_1WAByNEeeiOK1cjYY2rg" name="Enumeration23"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_2NqWoByNEeeiOK1cjYY2rg" name="Enumeration24"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_2QdzAByNEeeiOK1cjYY2rg" name="Enumeration25"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_2Xwt0ByNEeeiOK1cjYY2rg" name="Enumeration26"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_2YxacByNEeeiOK1cjYY2rg" name="Enumeration27"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_2bU_MByNEeeiOK1cjYY2rg" name="Enumeration28"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_28Yd0ByNEeeiOK1cjYY2rg" name="DataType1"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_3DImEByNEeeiOK1cjYY2rg" name="DataType2"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_3E9LAByNEeeiOK1cjYY2rg" name="DataType3"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5KQqoByNEeeiOK1cjYY2rg" name="Enumeration29"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5QJQMByNEeeiOK1cjYY2rg" name="Enumeration30"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5RCBAByNEeeiOK1cjYY2rg" name="Enumeration31"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5TDaQByNEeeiOK1cjYY2rg" name="Enumeration32"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5Vo0MByNEeeiOK1cjYY2rg" name="Enumeration33"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5d7NgByNEeeiOK1cjYY2rg" name="Enumeration34"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_5fvycByNEeeiOK1cjYY2rg" name="Enumeration35"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_7aBGwByNEeeiOK1cjYY2rg" name="Enumeration36"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_7gdtAByNEeeiOK1cjYY2rg" name="Enumeration37"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_7iHS0ByNEeeiOK1cjYY2rg" name="Enumeration38"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_7kZx0ByNEeeiOK1cjYY2rg" name="Enumeration39"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_E0QMkByOEeeiOK1cjYY2rg" name="Enumeration40"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_E7L7AByOEeeiOK1cjYY2rg" name="Enumeration41"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_E8SHMByOEeeiOK1cjYY2rg" name="Enumeration42"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_E-xagByOEeeiOK1cjYY2rg" name="Enumeration43"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_HAPjAByOEeeiOK1cjYY2rg" name="Enumeration44"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_JklIAByOEeeiOK1cjYY2rg" name="Enumeration45"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_Jvv2MByOEeeiOK1cjYY2rg" name="Enumeration46"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_Lkw3EByOEeeiOK1cjYY2rg" name="Enumeration47"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_LraRoByOEeeiOK1cjYY2rg" name="Enumeration48"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_LtQrwByOEeeiOK1cjYY2rg" name="Enumeration49"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_MO6AQByOEeeiOK1cjYY2rg" name="Enumeration50"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_PzCOUByOEeeiOK1cjYY2rg" name="Enumeration51"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_bGzBkByOEeeiOK1cjYY2rg" name="Enumeration52"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zGeCYBxwEeeiOK1cjYY2rg" name="Human">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_YJRB0ByAEeeiOK1cjYY2rg" name="evenOrOdds()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_cFqTAByNEeeiOK1cjYY2rg" name="setFingers()"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z1iu4BxwEeeiOK1cjYY2rg" name="Computer">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_VzB3UByNEeeiOK1cjYY2rg" name="randomFingers()"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0U8p4Bx_EeeiOK1cjYY2rg" name="Scoreboard">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_-F5wIByLEeeiOK1cjYY2rg" name="roundHistory()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_A1aDUByMEeeiOK1cjYY2rg" name="playerHistory()"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ts8ngByAEeeiOK1cjYY2rg" client="_zGeCYBxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
   <packagedElement xmi:type="uml:Abstraction" xmi:id="_XwzegByAEeeiOK1cjYY2rg" client="_z1iu4BxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iB9c4ByOEeeiOK1cjYY2rg" name="Morra">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_mST3wByOEeeiOK1cjYY2rg" name="startFunction()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ov4GYByOEeeiOK1cjYY2rg" name="quitFunction()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_xrkPAByOEeeiOK1cjYY2rg" name="getFingers()"/>
+  </packagedElement>
 </uml:Model>
