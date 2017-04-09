@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QTmnwBxtEeeiOK1cjYY2rg" name="Morra">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QTmnwBxtEeeiOK1cjYY2rg" name="Morra" URI="">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QVZ-kBxtEeeiOK1cjYY2rg" name="Interaction1"/>
   <packagedElement xmi:type="uml:Activity" xmi:id="_QXwH8BxtEeeiOK1cjYY2rg" name="Activity1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QYDC4BxtEeeiOK1cjYY2rg" name="Interaction2"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="Game Controller">
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_zD0GQByMEeeiOK1cjYY2rg" name="instanceCreated()"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="GameController" isActive="true">
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_4aCkEByMEeeiOK1cjYY2rg" name="assignOddsorEven()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_4IvEUB0eEeeoTZsfrKKtKg" name="startFunction()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_63P5AB0eEeeoTZsfrKKtKg" name="quitFunction()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_8eu0MB0eEeeoTZsfrKKtKg" name="getFingers()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_8Ek84B0gEeeoTZsfrKKtKg" name=""/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LylBsBxvEeeiOK1cjYY2rg" name="Player">
+  <packagedElement xmi:type="uml:Class" xmi:id="_LylBsBxvEeeiOK1cjYY2rg" name="Player" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_La5NUB0mEeeoTZsfrKKtKg" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_94KysB0mEeeoTZsfrKKtKg" name="Fingers">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Y22fkByLEeeiOK1cjYY2rg" name="SetFingers()"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_iACRoByLEeeiOK1cjYY2rg" name="setFingers()"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_kg0MUByLEeeiOK1cjYY2rg" name="evenOrOdds()"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_c25_MByMEeeiOK1cjYY2rg" name="randomFingers()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_9P98gB0hEeeoTZsfrKKtKg" name="askPlayerName"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_tUmxcBxwEeeiOK1cjYY2rg" name="Morra1" isAbstract="true" isActive="true">
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_q-XzsByNEeeiOK1cjYY2rg" name="Enumeration1"/>
@@ -70,22 +80,33 @@
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_PzCOUByOEeeiOK1cjYY2rg" name="Enumeration51"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_bGzBkByOEeeiOK1cjYY2rg" name="Enumeration52"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_zGeCYBxwEeeiOK1cjYY2rg" name="Human">
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_YJRB0ByAEeeiOK1cjYY2rg" name="evenOrOdds()"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zGeCYBxwEeeiOK1cjYY2rg" name="Human" isAbstract="true">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_YJRB0ByAEeeiOK1cjYY2rg" name="evenOrOdds()" isAbstract="true"/>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_cFqTAByNEeeiOK1cjYY2rg" name="setFingers()"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_z1iu4BxwEeeiOK1cjYY2rg" name="Computer">
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_VzB3UByNEeeiOK1cjYY2rg" name="randomFingers()"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z1iu4BxwEeeiOK1cjYY2rg" name="Computer" isAbstract="true">
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_VzB3UByNEeeiOK1cjYY2rg" name="randomFingers()" isAbstract="true"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_0U8p4Bx_EeeiOK1cjYY2rg" name="Scoreboard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CGkiQB0mEeeoTZsfrKKtKg" name="Score">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WqQW0B0oEeeoTZsfrKKtKg" name="Round">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_-F5wIByLEeeiOK1cjYY2rg" name="roundHistory()"/>
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_A1aDUByMEeeiOK1cjYY2rg" name="playerHistory()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_A1aDUByMEeeiOK1cjYY2rg" name="setScore()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_PceQkB0fEeeoTZsfrKKtKg" name="getScore()"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ts8ngByAEeeiOK1cjYY2rg" client="_zGeCYBxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
   <packagedElement xmi:type="uml:Abstraction" xmi:id="_XwzegByAEeeiOK1cjYY2rg" client="_z1iu4BxwEeeiOK1cjYY2rg" supplier="_LylBsBxvEeeiOK1cjYY2rg"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_iB9c4ByOEeeiOK1cjYY2rg" name="Morra">
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_mST3wByOEeeiOK1cjYY2rg" name="startFunction()"/>
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ov4GYByOEeeiOK1cjYY2rg" name="quitFunction()"/>
-    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_xrkPAByOEeeiOK1cjYY2rg" name="getFingers()"/>
+    <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_mST3wByOEeeiOK1cjYY2rg" name="main()"/>
   </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OnuVsB0mEeeoTZsfrKKtKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OnwK4B0mEeeoTZsfrKKtKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>

@@ -22,7 +22,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_ArmGMRxvEeeiOK1cjYY2rg" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ArmGMhxvEeeiOK1cjYY2rg" y="5"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_ArmGMxxvEeeiOK1cjYY2rg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ArmGMxxvEeeiOK1cjYY2rg" type="Class_AttributeCompartment" collapsed="true">
         <styles xmi:type="notation:TitleStyle" xmi:id="_ArmGNBxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_ArmGNRxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_ArmGNhxvEeeiOK1cjYY2rg"/>
@@ -35,13 +35,25 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ArmGPBxvEeeiOK1cjYY2rg"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_ArmGPRxvEeeiOK1cjYY2rg" type="Class_NestedClassifierCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_zD-eUByMEeeiOK1cjYY2rg" type="Enumeration_ClassNestedClassifierLabel">
-          <element xmi:type="uml:Enumeration" href="Morra.uml#_zD0GQByMEeeiOK1cjYY2rg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_zD-eURyMEeeiOK1cjYY2rg"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_4aLG8ByMEeeiOK1cjYY2rg" type="Enumeration_ClassNestedClassifierLabel">
           <element xmi:type="uml:Enumeration" href="Morra.uml#_4aCkEByMEeeiOK1cjYY2rg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_4aLG8RyMEeeiOK1cjYY2rg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_4JfSQB0eEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_4IvEUB0eEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4JfSQR0eEeeoTZsfrKKtKg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_63eigB0eEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_63P5AB0eEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_63eigR0eEeeoTZsfrKKtKg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8e_S4B0eEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_8eu0MB0eEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8e_S4R0eEeeoTZsfrKKtKg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8EzmYB0gEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_8Ek84B0gEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8EzmYR0gEeeoTZsfrKKtKg"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_ArmGPhxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_ArmGPxxvEeeiOK1cjYY2rg"/>
@@ -57,6 +69,14 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_LyoFAhxvEeeiOK1cjYY2rg" y="5"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_LyoFAxxvEeeiOK1cjYY2rg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_LbK6IB0mEeeoTZsfrKKtKg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Morra.uml#_La5NUB0mEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LbK6IR0mEeeoTZsfrKKtKg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_94ZcMB0mEeeoTZsfrKKtKg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Morra.uml#_94KysB0mEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_94ZcMR0mEeeoTZsfrKKtKg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_LyoFBBxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_LyoFBRxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_LyoFBhxvEeeiOK1cjYY2rg"/>
@@ -81,13 +101,17 @@
           <element xmi:type="uml:Enumeration" href="Morra.uml#_c25_MByMEeeiOK1cjYY2rg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_c3DJIRyMEeeiOK1cjYY2rg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_9QKJwB0hEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_9P98gB0hEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9QKJwR0hEeeoTZsfrKKtKg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_LyosERxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_LyosEhxvEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_LyosExxvEeeiOK1cjYY2rg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyosFBxvEeeiOK1cjYY2rg"/>
       </children>
       <element xmi:type="uml:Class" href="Morra.uml#_LylBsBxvEeeiOK1cjYY2rg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lynd8RxvEeeiOK1cjYY2rg" x="363" y="51" width="160" height="174"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lynd8RxvEeeiOK1cjYY2rg" x="361" y="60" width="160" height="174"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_zGfQgBxwEeeiOK1cjYY2rg" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_zGf3kBxwEeeiOK1cjYY2rg" type="Class_NameLabel"/>
@@ -159,6 +183,14 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0U-fEhx_EeeiOK1cjYY2rg" y="5"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_0U-fExx_EeeiOK1cjYY2rg" type="Class_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_CGwvgB0mEeeoTZsfrKKtKg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Morra.uml#_CGkiQB0mEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CGwvgR0mEeeoTZsfrKKtKg"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WqdLIB0oEeeoTZsfrKKtKg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="Morra.uml#_WqQW0B0oEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WqdLIR0oEeeoTZsfrKKtKg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_0U-fFBx_EeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_0U-fFRx_EeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_0U-fFhx_EeeiOK1cjYY2rg"/>
@@ -179,13 +211,17 @@
           <element xmi:type="uml:Enumeration" href="Morra.uml#_A1aDUByMEeeiOK1cjYY2rg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_A1imMRyMEeeiOK1cjYY2rg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_PcxykB0fEeeoTZsfrKKtKg" type="Enumeration_ClassNestedClassifierLabel">
+          <element xmi:type="uml:Enumeration" href="Morra.uml#_PceQkB0fEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_PcxykR0fEeeoTZsfrKKtKg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_0U_GJhx_EeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_0U_GJxx_EeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_0U_GKBx_EeeiOK1cjYY2rg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0U_GKRx_EeeiOK1cjYY2rg"/>
       </children>
       <element xmi:type="uml:Class" href="Morra.uml#_0U8p4Bx_EeeiOK1cjYY2rg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0U94ARx_EeeiOK1cjYY2rg" x="806" y="45" width="172" height="183"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0U94ARx_EeeiOK1cjYY2rg" x="802" y="35" width="172" height="183"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_iB_5IByOEeeiOK1cjYY2rg" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_iCAgMByOEeeiOK1cjYY2rg" type="Class_NameLabel"/>
@@ -209,14 +245,6 @@
           <element xmi:type="uml:Enumeration" href="Morra.uml#_mST3wByOEeeiOK1cjYY2rg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_mSbMgRyOEeeiOK1cjYY2rg"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_ov-0EByOEeeiOK1cjYY2rg" type="Enumeration_ClassNestedClassifierLabel">
-          <element xmi:type="uml:Enumeration" href="Morra.uml#_ov4GYByOEeeiOK1cjYY2rg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_ov-0ERyOEeeiOK1cjYY2rg"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_xrrjwByOEeeiOK1cjYY2rg" type="Enumeration_ClassNestedClassifierLabel">
-          <element xmi:type="uml:Enumeration" href="Morra.uml#_xrkPAByOEeeiOK1cjYY2rg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_xrrjwRyOEeeiOK1cjYY2rg"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_iCAgPhyOEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_iCAgPxyOEeeiOK1cjYY2rg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_iCAgQByOEeeiOK1cjYY2rg"/>
@@ -233,10 +261,12 @@
     <element xmi:type="uml:Model" href="Morra.uml#_QTmnwBxtEeeiOK1cjYY2rg"/>
     <edges xmi:type="notation:Connector" xmi:id="_Ts91oByAEeeiOK1cjYY2rg" type="Abstraction_Edge" source="_zGfQgBxwEeeiOK1cjYY2rg" target="_Lynd8BxvEeeiOK1cjYY2rg">
       <children xmi:type="notation:DecorationNode" xmi:id="_Ts91oxyAEeeiOK1cjYY2rg" type="Abstraction_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ts-csByAEeeiOK1cjYY2rg" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_QCVSgB0mEeeoTZsfrKKtKg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ts-csByAEeeiOK1cjYY2rg" y="39"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_Ts-csRyAEeeiOK1cjYY2rg" type="Abstraction_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ts-cshyAEeeiOK1cjYY2rg" x="1" y="5"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_QClxMB0mEeeoTZsfrKKtKg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ts-cshyAEeeiOK1cjYY2rg" x="1" y="4"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Ts91oRyAEeeiOK1cjYY2rg"/>
       <element xmi:type="uml:Abstraction" href="Morra.uml#_Ts8ngByAEeeiOK1cjYY2rg"/>
@@ -246,10 +276,12 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_Xw2h0ByAEeeiOK1cjYY2rg" type="Abstraction_Edge" source="_z1j9ABxwEeeiOK1cjYY2rg" target="_Lynd8BxvEeeiOK1cjYY2rg">
       <children xmi:type="notation:DecorationNode" xmi:id="_Xw2h0xyAEeeiOK1cjYY2rg" type="Abstraction_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xw2h1ByAEeeiOK1cjYY2rg" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_QC228B0mEeeoTZsfrKKtKg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xw2h1ByAEeeiOK1cjYY2rg" x="-1" y="37"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_Xw3I4ByAEeeiOK1cjYY2rg" type="Abstraction_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xw3I4RyAEeeiOK1cjYY2rg" x="53" y="-63"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_QDIjwB0mEeeoTZsfrKKtKg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xw3I4RyAEeeiOK1cjYY2rg" x="52" y="-62"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Xw2h0RyAEeeiOK1cjYY2rg"/>
       <element xmi:type="uml:Abstraction" href="Morra.uml#_XwzegByAEeeiOK1cjYY2rg"/>
