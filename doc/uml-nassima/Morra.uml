@@ -2,81 +2,53 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_O43IEBxtEeeT-oTquQOj6A" name="Morra">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_O5XeYBxtEeeT-oTquQOj6A" name="Interaction1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_O6eRpBxtEeeT-oTquQOj6A" name="Interaction2"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_O6-A4BxtEeeT-oTquQOj6A" name="Start of the game" node="_pLqggBz8Eeei9uF5ATcpnA _rw16YBz5Eeei9uF5ATcpnA _xkSVIBz4Eeei9uF5ATcpnA _eA-tkBz4Eeei9uF5ATcpnA _P8IW8BzxEeei9uF5ATcpnA _lDZOIBz9Eeei9uF5ATcpnA _xGyukBz9Eeei9uF5ATcpnA _PEeckBz5Eeei9uF5ATcpnA">
-    <ownedBehavior xmi:type="uml:Activity" xmi:id="_G_-9gB0AEeei9uF5ATcpnA" name="Play the Game First Round" node="_GIVccB0DEeei9uF5ATcpnA _-JpHkB0CEeei9uF5ATcpnA _sd9I8B0CEeei9uF5ATcpnA _hmf3MB0CEeei9uF5ATcpnA _V4HkgB0CEeei9uF5ATcpnA _GWu6QB0CEeei9uF5ATcpnA _5_yywB0BEeei9uF5ATcpnA _H2qRYB0BEeei9uF5ATcpnA _yVEYMB0AEeei9uF5ATcpnA _loCE4B0AEeei9uF5ATcpnA _da2oEB0AEeei9uF5ATcpnA _nNKIQB0DEeei9uF5ATcpnA _9Py5AB0DEeei9uF5ATcpnA _RBzq8B0EEeei9uF5ATcpnA">
-      <edge xmi:type="uml:ControlFlow" xmi:id="_twuqUB0AEeei9uF5ATcpnA" target="_loCE4B0AEeei9uF5ATcpnA" source="_da2oEB0AEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_5SWTYB0AEeei9uF5ATcpnA" target="_yVEYMB0AEeei9uF5ATcpnA" source="_loCE4B0AEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_N4sFQB0BEeei9uF5ATcpnA" target="_H2qRYB0BEeei9uF5ATcpnA" source="_yVEYMB0AEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_-75gYB0BEeei9uF5ATcpnA" target="_5_yywB0BEeei9uF5ATcpnA" source="_H2qRYB0BEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_P7q0MB0CEeei9uF5ATcpnA" target="_GWu6QB0CEeei9uF5ATcpnA" source="_5_yywB0BEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_nGQrgB0CEeei9uF5ATcpnA" target="_V4HkgB0CEeei9uF5ATcpnA" source="_GWu6QB0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_oAMkMB0CEeei9uF5ATcpnA" target="_hmf3MB0CEeei9uF5ATcpnA" source="_GWu6QB0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_IZjRIB0DEeei9uF5ATcpnA" target="_GIVccB0DEeei9uF5ATcpnA" source="_-JpHkB0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_A27-0B0EEeei9uF5ATcpnA" target="_9Py5AB0DEeei9uF5ATcpnA" source="_hmf3MB0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_CIfGQB0EEeei9uF5ATcpnA" target="_nNKIQB0DEeei9uF5ATcpnA" source="_V4HkgB0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_DJcM8B0EEeei9uF5ATcpnA" target="_sd9I8B0CEeei9uF5ATcpnA" source="_nNKIQB0DEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_D5QgUB0EEeei9uF5ATcpnA" target="_sd9I8B0CEeei9uF5ATcpnA" source="_9Py5AB0DEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_V3CUgB0EEeei9uF5ATcpnA" target="_RBzq8B0EEeei9uF5ATcpnA" source="_sd9I8B0CEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_ZPQNgB0EEeei9uF5ATcpnA" target="_-JpHkB0CEeei9uF5ATcpnA" source="_RBzq8B0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:InitialNode" xmi:id="_da2oEB0AEeei9uF5ATcpnA" name="Start Game" outgoing="_twuqUB0AEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_loCE4B0AEeei9uF5ATcpnA" name="System prompts for the the number &quot;Even&quot; or &quot;Odd&quot;" incoming="_twuqUB0AEeei9uF5ATcpnA" outgoing="_5SWTYB0AEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_yVEYMB0AEeei9uF5ATcpnA" name="The player is selecting between the &quot;Even&quot; or &quot;Odd&quot; option" incoming="_5SWTYB0AEeei9uF5ATcpnA" outgoing="_N4sFQB0BEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_H2qRYB0BEeei9uF5ATcpnA" name=" Systems prompts for the number to be displayed between 0 and 10" incoming="_N4sFQB0BEeei9uF5ATcpnA" outgoing="_-75gYB0BEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_5_yywB0BEeei9uF5ATcpnA" name="The player enters the number to be displayed" incoming="_-75gYB0BEeei9uF5ATcpnA" outgoing="_P7q0MB0CEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:DecisionNode" xmi:id="_GWu6QB0CEeei9uF5ATcpnA" name="DecisionNode1" incoming="_P7q0MB0CEeei9uF5ATcpnA" outgoing="_nGQrgB0CEeei9uF5ATcpnA _oAMkMB0CEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_V4HkgB0CEeei9uF5ATcpnA" name="System displays the wrong number of fingers" incoming="_nGQrgB0CEeei9uF5ATcpnA" outgoing="_CIfGQB0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_hmf3MB0CEeei9uF5ATcpnA" name="Systems displays the right number of fingers" incoming="_oAMkMB0CEeei9uF5ATcpnA" outgoing="_A27-0B0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:DecisionNode" xmi:id="_sd9I8B0CEeei9uF5ATcpnA" name="DecisionNode2" incoming="_DJcM8B0EEeei9uF5ATcpnA _D5QgUB0EEeei9uF5ATcpnA" outgoing="_V3CUgB0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_-JpHkB0CEeei9uF5ATcpnA" name="System asks for another round" incoming="_ZPQNgB0EEeei9uF5ATcpnA" outgoing="_IZjRIB0DEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:FlowFinalNode" xmi:id="_GIVccB0DEeei9uF5ATcpnA" name="End of the first round" incoming="_IZjRIB0DEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_nNKIQB0DEeei9uF5ATcpnA" name="System does not earn two points" incoming="_CIfGQB0EEeei9uF5ATcpnA" outgoing="_DJcM8B0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_9Py5AB0DEeei9uF5ATcpnA" name="System earns two points" incoming="_A27-0B0EEeei9uF5ATcpnA" outgoing="_D5QgUB0EEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_RBzq8B0EEeei9uF5ATcpnA" name="System displays the result" incoming="_V3CUgB0EEeei9uF5ATcpnA" outgoing="_ZPQNgB0EEeei9uF5ATcpnA"/>
-    </ownedBehavior>
-    <ownedBehavior xmi:type="uml:Activity" xmi:id="_mmSgEB0EEeei9uF5ATcpnA" name="Play Game Second Round" node="_7xWvoB0EEeei9uF5ATcpnA _AB-3UB0FEeei9uF5ATcpnA _KRuo0B0FEeei9uF5ATcpnA _WmF9cB0FEeei9uF5ATcpnA _ih4aAB0FEeei9uF5ATcpnA _pDj-UB0FEeei9uF5ATcpnA _tDILMB0FEeei9uF5ATcpnA _7iohsB0FEeei9uF5ATcpnA _9zRHkB0FEeei9uF5ATcpnA _FLBYQB0GEeei9uF5ATcpnA _MOfbAB0GEeei9uF5ATcpnA _UgmbIB0GEeei9uF5ATcpnA _ZziUYB0GEeei9uF5ATcpnA">
-      <edge xmi:type="uml:ControlFlow" xmi:id="_FPCyEB0FEeei9uF5ATcpnA" target="_AB-3UB0FEeei9uF5ATcpnA" source="_7xWvoB0EEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_ULdHAB0FEeei9uF5ATcpnA" target="_KRuo0B0FEeei9uF5ATcpnA" source="_AB-3UB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_bHE1UB0FEeei9uF5ATcpnA" target="_WmF9cB0FEeei9uF5ATcpnA" source="_KRuo0B0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_kNtpsB0FEeei9uF5ATcpnA" target="_ih4aAB0FEeei9uF5ATcpnA" source="_WmF9cB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_xvjeEB0FEeei9uF5ATcpnA" target="_pDj-UB0FEeei9uF5ATcpnA" source="_ih4aAB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_ybaegB0FEeei9uF5ATcpnA" target="_tDILMB0FEeei9uF5ATcpnA" source="_ih4aAB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_A4bhsB0GEeei9uF5ATcpnA" target="_9zRHkB0FEeei9uF5ATcpnA" source="_tDILMB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_CEbawB0GEeei9uF5ATcpnA" target="_7iohsB0FEeei9uF5ATcpnA" source="_pDj-UB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_HVUFkB0GEeei9uF5ATcpnA" target="_FLBYQB0GEeei9uF5ATcpnA" source="_7iohsB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_IGDmAB0GEeei9uF5ATcpnA" target="_FLBYQB0GEeei9uF5ATcpnA" source="_9zRHkB0FEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_PIXLIB0GEeei9uF5ATcpnA" target="_MOfbAB0GEeei9uF5ATcpnA" source="_FLBYQB0GEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_W7iMgB0GEeei9uF5ATcpnA" target="_UgmbIB0GEeei9uF5ATcpnA" source="_MOfbAB0GEeei9uF5ATcpnA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_dLCbsB0GEeei9uF5ATcpnA" target="_ZziUYB0GEeei9uF5ATcpnA" source="_UgmbIB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:InitialNode" xmi:id="_7xWvoB0EEeei9uF5ATcpnA" name="Start of the second round" outgoing="_FPCyEB0FEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_AB-3UB0FEeei9uF5ATcpnA" name="The player accepts to play a second round" incoming="_FPCyEB0FEeei9uF5ATcpnA" outgoing="_ULdHAB0FEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_KRuo0B0FEeei9uF5ATcpnA" name="System displays the selection of number &quot;Even&quot; or &quot;Odd&quot;" incoming="_ULdHAB0FEeei9uF5ATcpnA" outgoing="_bHE1UB0FEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_WmF9cB0FEeei9uF5ATcpnA" name="System displays the number between 0 and 10" incoming="_bHE1UB0FEeei9uF5ATcpnA" outgoing="_kNtpsB0FEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:DecisionNode" xmi:id="_ih4aAB0FEeei9uF5ATcpnA" name="DecisionNode1" incoming="_kNtpsB0FEeei9uF5ATcpnA" outgoing="_xvjeEB0FEeei9uF5ATcpnA _ybaegB0FEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_pDj-UB0FEeei9uF5ATcpnA" name="The players displays the wrong number of fingers" incoming="_xvjeEB0FEeei9uF5ATcpnA" outgoing="_CEbawB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_tDILMB0FEeei9uF5ATcpnA" name="The player displays the right number of fingers" incoming="_ybaegB0FEeei9uF5ATcpnA" outgoing="_A4bhsB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_7iohsB0FEeei9uF5ATcpnA" name="The player does not earn  2 points" incoming="_CEbawB0GEeei9uF5ATcpnA" outgoing="_HVUFkB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_9zRHkB0FEeei9uF5ATcpnA" name="The player does not earn two points" incoming="_A4bhsB0GEeei9uF5ATcpnA" outgoing="_IGDmAB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:DecisionNode" xmi:id="_FLBYQB0GEeei9uF5ATcpnA" name="DecisionNode2" incoming="_HVUFkB0GEeei9uF5ATcpnA _IGDmAB0GEeei9uF5ATcpnA" outgoing="_PIXLIB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_MOfbAB0GEeei9uF5ATcpnA" name="Systems displays results" incoming="_PIXLIB0GEeei9uF5ATcpnA" outgoing="_W7iMgB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_UgmbIB0GEeei9uF5ATcpnA" name="System asks for another round" incoming="_W7iMgB0GEeei9uF5ATcpnA" outgoing="_dLCbsB0GEeei9uF5ATcpnA"/>
-      <node xmi:type="uml:FlowFinalNode" xmi:id="_ZziUYB0GEeei9uF5ATcpnA" name="End of the second round" incoming="_dLCbsB0GEeei9uF5ATcpnA"/>
-    </ownedBehavior>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_O6-A4BxtEeeT-oTquQOj6A" name="Start of the game" node="_VR_F4B00EeednauIka9cvQ _Mw2LQB00EeednauIka9cvQ _3Ysh8B0zEeednauIka9cvQ _tCne8B0zEeednauIka9cvQ _Ui75cB0yEeednauIka9cvQ _T0Jg0B0yEeednauIka9cvQ _NZ4MEB0yEeednauIka9cvQ _HVmVcB0yEeednauIka9cvQ _VfyDkB0vEeednauIka9cvQ _yD7rcB0tEeednauIka9cvQ _uuCGoB0tEeednauIka9cvQ _mfmM8B0qEeednauIka9cvQ _8cL1gB0pEeednauIka9cvQ _xkSVIBz4Eeei9uF5ATcpnA _P8IW8BzxEeei9uF5ATcpnA _uDnMcB00EeednauIka9cvQ _e50tYB01EeednauIka9cvQ _jVYSsB01EeednauIka9cvQ _S1xQMB02EeednauIka9cvQ _ZSlioB02EeednauIka9cvQ">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Oeji4B03EeednauIka9cvQ">
+      <body>The player is the system</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_QmSEYB03EeednauIka9cvQ">
+      <body>The player is human</body>
+    </ownedComment>
     <edge xmi:type="uml:ControlFlow" xmi:id="_2ssZYBz4Eeei9uF5ATcpnA" target="_xkSVIBz4Eeei9uF5ATcpnA" source="_P8IW8BzxEeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_VT3-EBz5Eeei9uF5ATcpnA" target="_PEeckBz5Eeei9uF5ATcpnA" source="_xkSVIBz4Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_kyAgABz5Eeei9uF5ATcpnA" name="Existing Player" target="_lDZOIBz9Eeei9uF5ATcpnA" source="_PEeckBz5Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_xq-9kBz5Eeei9uF5ATcpnA" name="New Player" target="_rw16YBz5Eeei9uF5ATcpnA" source="_PEeckBz5Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_zUjmoBz9Eeei9uF5ATcpnA" target="_xGyukBz9Eeei9uF5ATcpnA" source="_rw16YBz5Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_0LsqABz9Eeei9uF5ATcpnA" target="_xGyukBz9Eeei9uF5ATcpnA" source="_lDZOIBz9Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="__5wzoBz9Eeei9uF5ATcpnA" target="_eA-tkBz4Eeei9uF5ATcpnA" source="_xGyukBz9Eeei9uF5ATcpnA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_kGvJ4B0DEeei9uF5ATcpnA" target="_pLqggBz8Eeei9uF5ATcpnA" source="_eA-tkBz4Eeei9uF5ATcpnA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LA7RUB0qEeednauIka9cvQ" target="_8cL1gB0pEeednauIka9cvQ" source="_xkSVIBz4Eeei9uF5ATcpnA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sFUfUB0qEeednauIka9cvQ" target="_mfmM8B0qEeednauIka9cvQ" source="_8cL1gB0pEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4A2V0B0tEeednauIka9cvQ" target="_yD7rcB0tEeednauIka9cvQ" source="_uuCGoB0tEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gt4MUB0yEeednauIka9cvQ" target="_Ui75cB0yEeednauIka9cvQ" source="_NZ4MEB0yEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iY0EIB0yEeednauIka9cvQ" target="_T0Jg0B0yEeednauIka9cvQ" source="_NZ4MEB0yEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qsmfQB0yEeednauIka9cvQ" target="_NZ4MEB0yEeednauIka9cvQ" source="_HVmVcB0yEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ry4K0B0yEeednauIka9cvQ" target="_HVmVcB0yEeednauIka9cvQ" source="_mfmM8B0qEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1zAWgB0zEeednauIka9cvQ" target="_tCne8B0zEeednauIka9cvQ" source="_yD7rcB0tEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RcjFYB00EeednauIka9cvQ" target="_Mw2LQB00EeednauIka9cvQ" source="_T0Jg0B0yEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SDRHIB00EeednauIka9cvQ" target="_Mw2LQB00EeednauIka9cvQ" source="_Ui75cB0yEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bIBsMB00EeednauIka9cvQ" target="_uuCGoB0tEeednauIka9cvQ" source="_VR_F4B00EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ek738B00EeednauIka9cvQ" target="_VR_F4B00EeednauIka9cvQ" source="_Mw2LQB00EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hHla4B00EeednauIka9cvQ" target="_3Ysh8B0zEeednauIka9cvQ" source="_tCne8B0zEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ztN5QB00EeednauIka9cvQ" target="_uDnMcB00EeednauIka9cvQ" source="_3Ysh8B0zEeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mCfZMB01EeednauIka9cvQ" target="_e50tYB01EeednauIka9cvQ" source="_uDnMcB00EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nqpCwB01EeednauIka9cvQ" target="_jVYSsB01EeednauIka9cvQ" source="_uDnMcB00EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AdxlMB02EeednauIka9cvQ" target="_HVmVcB0yEeednauIka9cvQ" source="_e50tYB01EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wXlIQB02EeednauIka9cvQ" target="_S1xQMB02EeednauIka9cvQ" source="_jVYSsB01EeednauIka9cvQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xXnB4B02EeednauIka9cvQ" target="_ZSlioB02EeednauIka9cvQ" source="_S1xQMB02EeednauIka9cvQ"/>
     <node xmi:type="uml:InitialNode" xmi:id="_P8IW8BzxEeei9uF5ATcpnA" name="Start of the program" outgoing="_2ssZYBz4Eeei9uF5ATcpnA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_eA-tkBz4Eeei9uF5ATcpnA" name="Start Game" incoming="__5wzoBz9Eeei9uF5ATcpnA" outgoing="_kGvJ4B0DEeei9uF5ATcpnA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_xkSVIBz4Eeei9uF5ATcpnA" name="Systems prompts for the name of the player" incoming="_2ssZYBz4Eeei9uF5ATcpnA" outgoing="_VT3-EBz5Eeei9uF5ATcpnA"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_PEeckBz5Eeei9uF5ATcpnA" name="Yes/No" incoming="_VT3-EBz5Eeei9uF5ATcpnA" outgoing="_kyAgABz5Eeei9uF5ATcpnA _xq-9kBz5Eeei9uF5ATcpnA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_rw16YBz5Eeei9uF5ATcpnA" name="Ask the Player for a name" incoming="_xq-9kBz5Eeei9uF5ATcpnA" outgoing="_zUjmoBz9Eeei9uF5ATcpnA"/>
-    <node xmi:type="uml:FlowFinalNode" xmi:id="_pLqggBz8Eeei9uF5ATcpnA" name="Resume game" incoming="_kGvJ4B0DEeei9uF5ATcpnA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_lDZOIBz9Eeei9uF5ATcpnA" name="The player enters an existing name" incoming="_kyAgABz5Eeei9uF5ATcpnA" outgoing="_0LsqABz9Eeei9uF5ATcpnA"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_xGyukBz9Eeei9uF5ATcpnA" name="DecisionNode2" incoming="_zUjmoBz9Eeei9uF5ATcpnA _0LsqABz9Eeei9uF5ATcpnA" outgoing="__5wzoBz9Eeei9uF5ATcpnA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xkSVIBz4Eeei9uF5ATcpnA" name="Ask the player's name" incoming="_2ssZYBz4Eeei9uF5ATcpnA" outgoing="_LA7RUB0qEeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8cL1gB0pEeednauIka9cvQ" name="Ask the players if he wants to play &quot;Evens&quot; or &quot; Odds&quot;" incoming="_LA7RUB0qEeednauIka9cvQ" outgoing="_sFUfUB0qEeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_mfmM8B0qEeednauIka9cvQ" name="Start the game" incoming="_sFUfUB0qEeednauIka9cvQ" outgoing="_ry4K0B0yEeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uuCGoB0tEeednauIka9cvQ" name="Display the result" incoming="_bIBsMB00EeednauIka9cvQ" outgoing="_4A2V0B0tEeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yD7rcB0tEeednauIka9cvQ" name="Check if the number is &quot;Odd&quot; or &quot;Even&quot;" incoming="_4A2V0B0tEeednauIka9cvQ" outgoing="_1zAWgB0zEeednauIka9cvQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_VfyDkB0vEeednauIka9cvQ" name="CopyOf_The Player is human_1"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HVmVcB0yEeednauIka9cvQ" name="Ask the players to enter a number between 1 and 10" incoming="_ry4K0B0yEeednauIka9cvQ _AdxlMB02EeednauIka9cvQ" outgoing="_qsmfQB0yEeednauIka9cvQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_NZ4MEB0yEeednauIka9cvQ" name="" incoming="_qsmfQB0yEeednauIka9cvQ" outgoing="_gt4MUB0yEeednauIka9cvQ _iY0EIB0yEeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_T0Jg0B0yEeednauIka9cvQ" name="The Player enters the number between 1 and 10" incoming="_iY0EIB0yEeednauIka9cvQ" outgoing="_RcjFYB00EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ui75cB0yEeednauIka9cvQ" name="The Player displays a random number between 1 and 10" incoming="_gt4MUB0yEeednauIka9cvQ" outgoing="_SDRHIB00EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tCne8B0zEeednauIka9cvQ" name="Assign the points" incoming="_1zAWgB0zEeednauIka9cvQ" outgoing="_hHla4B00EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3Ysh8B0zEeednauIka9cvQ" name="Record the turn data" incoming="_hHla4B00EeednauIka9cvQ" outgoing="_ztN5QB00EeednauIka9cvQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_Mw2LQB00EeednauIka9cvQ" name="" incoming="_RcjFYB00EeednauIka9cvQ _SDRHIB00EeednauIka9cvQ" outgoing="_ek738B00EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VR_F4B00EeednauIka9cvQ" name="Both players have chosen their respective numbers" incoming="_ek738B00EeednauIka9cvQ" outgoing="_bIBsMB00EeednauIka9cvQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_uDnMcB00EeednauIka9cvQ" name="" incoming="_ztN5QB00EeednauIka9cvQ" outgoing="_mCfZMB01EeednauIka9cvQ _nqpCwB01EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e50tYB01EeednauIka9cvQ" name="The score is less than 6" incoming="_mCfZMB01EeednauIka9cvQ" outgoing="_AdxlMB02EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jVYSsB01EeednauIka9cvQ" name="The score is higher than6" incoming="_nqpCwB01EeednauIka9cvQ" outgoing="_wXlIQB02EeednauIka9cvQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_S1xQMB02EeednauIka9cvQ" name="Record scores in the history files" incoming="_wXlIQB02EeednauIka9cvQ" outgoing="_xXnB4B02EeednauIka9cvQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_ZSlioB02EeednauIka9cvQ" name="End of the Program" incoming="_xXnB4B02EeednauIka9cvQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Activity" xmi:id="_iJl0oBzrEeeoxI-Om9YoOw" name="Activity2"/>
 </uml:Model>
