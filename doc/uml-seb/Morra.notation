@@ -368,6 +368,12 @@
           <element xmi:type="uml:Lifeline" href="Morra.uml#_eIkhsB1YEeeoTZsfrKKtKg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eIozIR1YEeeoTZsfrKKtKg" x="647" y="251" width="131" height="127"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_fUeFYB1eEeeoTZsfrKKtKg" type="Constraint_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_fUescB1eEeeoTZsfrKKtKg" type="Constraint_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_fUescR1eEeeoTZsfrKKtKg" type="Constraint_BodyLabel"/>
+          <element xmi:type="uml:Constraint" href="Morra.uml#_fUWJkB1eEeeoTZsfrKKtKg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fUeFYR1eEeeoTZsfrKKtKg" x="220" y="36"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QYJwlhxtEeeiOK1cjYY2rg"/>
       </children>
       <element xmi:type="uml:Interaction" href="Morra.uml#_QYDC4BxtEeeiOK1cjYY2rg"/>
@@ -464,6 +470,19 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k__6Qh1dEeeoTZsfrKKtKg" points="[410, 387, -643984, -643984]$[420, 154, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lAS1MB1dEeeoTZsfrKKtKg" id="(0.47337278106508873,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lAS1MR1dEeeoTZsfrKKtKg" id="(0.2926829268292683,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_X6BtEB1eEeeoTZsfrKKtKg" type="Path_Edge" source="_pcN1oB1XEeeoTZsfrKKtKg" target="_QX5AEB1YEeeoTZsfrKKtKg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_X6CUIB1eEeeoTZsfrKKtKg" type="Path_MessageLabel">
+        <element xmi:type="uml:Message" href="Morra.uml#_X5pSkB1eEeeoTZsfrKKtKg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X6CUIR1eEeeoTZsfrKKtKg" x="-8" y="-133"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_X6CUIh1eEeeoTZsfrKKtKg" type="Path_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X6CUIx1eEeeoTZsfrKKtKg" x="1" y="-53"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_X6BtER1eEeeoTZsfrKKtKg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X6BtEh1eEeeoTZsfrKKtKg" points="[230, 102, -643984, -643984]$[384, 102, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6ZggB1eEeeoTZsfrKKtKg" id="(1.0,0.05660377358490566)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6ZggR1eEeeoTZsfrKKtKg" id="(0.0,0.10344827586206896)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

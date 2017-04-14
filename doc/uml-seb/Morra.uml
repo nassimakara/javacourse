@@ -3,9 +3,16 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QVZ-kBxtEeeiOK1cjYY2rg" name="Interaction1"/>
   <packagedElement xmi:type="uml:Activity" xmi:id="_QXwH8BxtEeeiOK1cjYY2rg" name="Activity1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_QYDC4BxtEeeiOK1cjYY2rg" name="Interaction2">
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_pcHH8B1XEeeoTZsfrKKtKg" name="player" coveredBy="_E5ms8B1aEeeoTZsfrKKtKg _E5nUAB1aEeeoTZsfrKKtKg _M_PscB1cEeeoTZsfrKKtKg _P6hx0B1cEeeoTZsfrKKtKg"/>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_fUWJkB1eEeeoTZsfrKKtKg" name="Functions">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_ja36EB1eEeeoTZsfrKKtKg">
+        <language>OCL</language>
+        <body>startFunction()&#xD;
+quitFunction()</body>
+      </specification>
+    </ownedRule>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_pcHH8B1XEeeoTZsfrKKtKg" name="player" coveredBy="_E5ms8B1aEeeoTZsfrKKtKg _E5nUAB1aEeeoTZsfrKKtKg _M_PscB1cEeeoTZsfrKKtKg _P6hx0B1cEeeoTZsfrKKtKg _PjijQB1eEeeoTZsfrKKtKg _X5sV4B1eEeeoTZsfrKKtKg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_4493gB1XEeeoTZsfrKKtKg" name="Morra" coveredBy="_LUlzYR1aEeeoTZsfrKKtKg _3R9WEB1aEeeoTZsfrKKtKg _J36vIB1cEeeoTZsfrKKtKg _M_QTgB1cEeeoTZsfrKKtKg _P6hKwB1cEeeoTZsfrKKtKg _aVjJwB1dEeeoTZsfrKKtKg _k_tmYB1dEeeoTZsfrKKtKg"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_QXuoAB1YEeeoTZsfrKKtKg" name="GameController" coveredBy="_LUlzYB1aEeeoTZsfrKKtKg _J36IEB1cEeeoTZsfrKKtKg _k_uNcB1dEeeoTZsfrKKtKg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QXuoAB1YEeeoTZsfrKKtKg" name="GameController" coveredBy="_LUlzYB1aEeeoTZsfrKKtKg _J36IEB1cEeeoTZsfrKKtKg _k_uNcB1dEeeoTZsfrKKtKg _PjijQR1eEeeoTZsfrKKtKg _X5s88B1eEeeoTZsfrKKtKg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_eIkhsB1YEeeoTZsfrKKtKg" name="Scoreboard" coveredBy="_3R99IB1aEeeoTZsfrKKtKg _aViisB1dEeeoTZsfrKKtKg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E5ms8B1aEeeoTZsfrKKtKg" name="Message0Send0" covered="_pcHH8B1XEeeoTZsfrKKtKg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E5nUAB1aEeeoTZsfrKKtKg" name="Message0Recv0" covered="_pcHH8B1XEeeoTZsfrKKtKg"/>
@@ -23,12 +30,17 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aVjJwB1dEeeoTZsfrKKtKg" name="Message0Recv3" covered="_4493gB1XEeeoTZsfrKKtKg" message="_aVe4UB1dEeeoTZsfrKKtKg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k_tmYB1dEeeoTZsfrKKtKg" name="Message0Send4" covered="_4493gB1XEeeoTZsfrKKtKg" message="_k_oG0B1dEeeoTZsfrKKtKg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k_uNcB1dEeeoTZsfrKKtKg" name="Message0Recv4" covered="_QXuoAB1YEeeoTZsfrKKtKg" message="_k_oG0B1dEeeoTZsfrKKtKg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PjijQB1eEeeoTZsfrKKtKg" name="Message1Send2" covered="_pcHH8B1XEeeoTZsfrKKtKg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PjijQR1eEeeoTZsfrKKtKg" name="Message1Recv2" covered="_QXuoAB1YEeeoTZsfrKKtKg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_X5sV4B1eEeeoTZsfrKKtKg" name="Message1Send3" covered="_pcHH8B1XEeeoTZsfrKKtKg" message="_X5pSkB1eEeeoTZsfrKKtKg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_X5s88B1eEeeoTZsfrKKtKg" name="Message1Recv3" covered="_QXuoAB1YEeeoTZsfrKKtKg" message="_X5pSkB1eEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_3Rv6sB1aEeeoTZsfrKKtKg" name="setScore0" receiveEvent="_3R99IB1aEeeoTZsfrKKtKg" sendEvent="_3R9WEB1aEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_J3nNIB1cEeeoTZsfrKKtKg" name="startFunction0" receiveEvent="_J36vIB1cEeeoTZsfrKKtKg" sendEvent="_J36IEB1cEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_M_Kz8B1cEeeoTZsfrKKtKg" name="startFunction()" receiveEvent="_M_QTgB1cEeeoTZsfrKKtKg" sendEvent="_M_PscB1cEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_P6TvYB1cEeeoTZsfrKKtKg" name="Message2" receiveEvent="_P6hx0B1cEeeoTZsfrKKtKg" sendEvent="_P6hKwB1cEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_aVe4UB1dEeeoTZsfrKKtKg" name="getScore0" receiveEvent="_aVjJwB1dEeeoTZsfrKKtKg" sendEvent="_aViisB1dEeeoTZsfrKKtKg"/>
     <message xmi:type="uml:Message" xmi:id="_k_oG0B1dEeeoTZsfrKKtKg" name="Message0" receiveEvent="_k_uNcB1dEeeoTZsfrKKtKg" sendEvent="_k_tmYB1dEeeoTZsfrKKtKg"/>
+    <message xmi:type="uml:Message" xmi:id="_X5pSkB1eEeeoTZsfrKKtKg" name="Message1" receiveEvent="_X5s88B1eEeeoTZsfrKKtKg" sendEvent="_X5sV4B1eEeeoTZsfrKKtKg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ArkRABxvEeeiOK1cjYY2rg" name="GameController" isActive="true">
     <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_4aCkEByMEeeiOK1cjYY2rg" name="assignOddsorEven()"/>
