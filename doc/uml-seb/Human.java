@@ -11,9 +11,6 @@ public class Human {
 	        this.fingers = fingers;
 	    }
 	 
-	 public int getFingers(int fingers) {
-	        return fingers;
-	    }
 	 
 	 
 	
