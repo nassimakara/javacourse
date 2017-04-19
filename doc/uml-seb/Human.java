@@ -1,5 +1,5 @@
 import java.util.scanner;
-public class Human {
+public class Human extends Players{
 	
 	
 	
