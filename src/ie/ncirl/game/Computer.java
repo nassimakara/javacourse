@@ -1,4 +1,4 @@
-package com.game.morra;
+package ie.ncirl.game;
 
 // TODO: the code MUST be FORMATTED properly (indentation, spaces, etc...)
 

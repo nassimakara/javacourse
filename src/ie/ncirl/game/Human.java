@@ -1,3 +1,4 @@
+package ie.ncirl.game;
 // FIXME: why do you import classes if you don't use it???
 // (wrong name BTW: Scanner and not scanner) 
 import java.util.scanner;

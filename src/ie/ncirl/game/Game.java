@@ -1,4 +1,4 @@
-package com.game.morra;
+package ie.ncirl.game;
 
 import java.util.ArrayList;
 import java.util.Scanner;
