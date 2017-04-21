@@ -3,6 +3,8 @@ package com.game.morra;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+// TODO: what is this class for? There's a lot of code in it and it doesn't seems to be original. Please delete it!!!
 public class Game {
 
     public static void main(String[] args) {
