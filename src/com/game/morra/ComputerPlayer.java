@@ -2,6 +2,7 @@ package com.game.morra;
 
 import java.util.ArrayList;
 
+// TODO: What is this class for? PLEASE DELETE IT!!!
 public class ComputerPlayer extends Player {
 
     public ComputerPlayer() {
