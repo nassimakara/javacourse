@@ -2,6 +2,7 @@ package com.game.morra;
 
 import java.util.ArrayList;
 
+//TODO: What is this class for? If required needs to be completed, if not, please delete it!
 public class GameInfo {
 
     private int humanRound;
