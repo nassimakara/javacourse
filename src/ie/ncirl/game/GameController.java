@@ -22,6 +22,10 @@ public class GameController
     private int allFingers = 0;
     private Human human;
     private Computer computer;
+    
+    protected ArrayList<ArrayList<int[]>> computerGames = new ArrayList<ArrayList<int[]>>();
+    protected ArrayList<ArrayList<int[]>> humanGames = new ArrayList<ArrayList<int[]>>();
+
 
     /**
      * This method initialize a new game
