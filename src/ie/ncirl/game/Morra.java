@@ -25,7 +25,7 @@ public class Morra
         int choice = sc.nextInt();
         
         // check if the player's choice is valid
-        while (choice < 0 && choice > 2)
+        while (choice < 0 || choice > 2)
         {
             System.out.print(choice + " is not a valid option; please retry 2 for evens, 1 for odds or 0 to quit: ");
             choice = sc.nextInt();

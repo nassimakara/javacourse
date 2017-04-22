@@ -12,6 +12,7 @@ import java.util.Scanner;
  */
 public class Human extends Player {
 	
+    private Scanner sc = new Scanner(System.in);
     
     // TODO: comment is missing
     /**
@@ -29,18 +30,15 @@ public class Human extends Player {
      */
     public int showFingers()
     {
-        Scanner sc = new Scanner(System.in);
-        
         System.out.print(this.name + ", please choose a number of fingers to show between 1 and 10. Type 0 to quit: ");
         int fingers = sc.nextInt();
         
         // check if the player's choice is valid
-        while (fingers < 0 && fingers > this.maxFingers)
+        while (fingers < 0 || fingers > this.maxFingers)
         {
             System.out.print(fingers + " is not a valid number; please retry with a number between 1 and 10 or 0 to quit: ");
             fingers = sc.nextInt();
         }
-        sc.close();
         this.setFingers(fingers);
         
         return fingers;

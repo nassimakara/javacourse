@@ -18,6 +18,7 @@ public class GameController
 
     // declare instance variables
     private int rounds = 0;
+    private int allFingers = 0;
     private Human human;
     private Computer computer;
 
@@ -55,8 +56,9 @@ public class GameController
             int humanFingers = this.human.showFingers();
             if (humanFingers==0) this.end();
             this.assignPoints(humanFingers, this.computer.showFingers());
-            System.out.println("Round " + ++this.rounds);
-            System.out.println("Computer " + this.computer.getPoints() + " - " + this.human.name + " " + this.human.getPoints());
+            System.out.println("Round " + ++this.rounds + " - " + this.allFingers + " fingers (" + this.computer.getName() + " fingers: " + this.computer.getFingers() + ")");
+            System.out.println("Computer " + this.computer.getPoints() + " - " + this.human.getName() + " " + this.human.getPoints());
+            this.checkWinner();
         }
         this.end();
     }
@@ -67,16 +69,36 @@ public class GameController
      */
     private void assignPoints(int humanFingers, int computerFinger)
     {
-		int allFingers = humanFingers + computerFinger;
+		this.allFingers = humanFingers + computerFinger;
 
 		// when the sum is even
 		if (allFingers%2==0)
 	    {
 		    if (this.human.hasOdds) this.computer.setPoints(this.roundPoints);
+		    else this.human.setPoints(this.roundPoints);
 	    }
 		else // when the sum is odd
 		{
-            if (this.human.hasOdds) this.human.setPoints(this.roundPoints);		    
+            if (this.human.hasOdds) this.human.setPoints(this.roundPoints);
+            else this.computer.setPoints(this.roundPoints);
 		}
+    }
+    
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    private void checkWinner()
+    {
+        // Both players scored at least 6 points
+        if (this.human.getPoints() >= this.winningPoints && this.computer.getPoints() >= this.winningPoints)
+        {
+            // Check who scored more points
+            if (this.human.getPoints() > this.computer.getPoints()) System.out.println(this.human.getName() + " won the game!");
+            else System.out.println(this.computer.getName() + " won the game!");
+        }
+        // One of the 2 player scored at least 6 points
+        else if (this.human.getPoints() >= this.winningPoints) System.out.println(this.human.getName() + " won the game!"); 
+        else if (this.computer.getPoints() >= this.winningPoints) System.out.println(this.computer.getName() + " won the game!");
     }
 }
