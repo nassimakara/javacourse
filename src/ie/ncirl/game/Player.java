@@ -4,11 +4,11 @@
  */
 package ie.ncirl.game;
 
-// TODO: comment is missing
+
 /**
- * 
+ * This class is the abstract class (Human and Computer)
  */
-public class Player {
+abstract class Player {
 
     protected String name;
     protected boolean hasOdds;
@@ -18,18 +18,18 @@ public class Player {
     protected final int maxFingers = 10;
     protected int points = 0;
     
-    // TODO: comment is missing
+    
     /**
-     * 
+     * Function used to set the player choice.
      */
     public boolean hasOdds()
     {
         return hasOdds;
     }
 
-    // TODO: comment is missing
+    
     /**
-     * 
+     * Function used to set the player choice, Even or Odds
      */
     public void hasOdds(boolean hasOdds)
     {
