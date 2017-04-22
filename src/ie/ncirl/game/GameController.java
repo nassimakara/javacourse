@@ -4,8 +4,6 @@
  */
 package ie.ncirl.game;
 
-import java.util.Scanner;
-
 /**
  * This class controls the gameplay and the players
  */

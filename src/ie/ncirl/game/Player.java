@@ -8,7 +8,8 @@ package ie.ncirl.game;
 /**
  * This class is the abstract class so it cannot be directly instantiated.
  * Human and Computer can be instantiated. 
- * In this class you have all methods which are in common for all the classes that might extend this one.
+ * In this class there are abstract methods and standard ones which are in common for all the classes that extend this 
+ * one.
  */
 abstract class Player {
 
@@ -39,13 +40,10 @@ abstract class Player {
     }
 
     /**
-     * 
-     * @return
+     * The showFingers abstract method must be implemented by each class that extend the Player
      */
-    public int showFingers()
-    {
-    	return this.getFingers();
-    }
+    abstract int showFingers();
+
     // Getters and Setters follow
     public String getName()
     {
