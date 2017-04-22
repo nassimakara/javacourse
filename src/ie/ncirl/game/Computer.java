@@ -6,7 +6,7 @@ package ie.ncirl.game;
 
 
 /**
- * This class is to set the computer
+ * This class has been created because it has functions which can only be assigned to a computer, varies a lot from a human behaviour. 
  */
 public class Computer extends Player
 {

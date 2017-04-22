@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 
 /**
- * Player is the abstract class. 
+ * This class controls the Human player. 
  */
 public class Human extends Player {
 	
@@ -16,7 +16,7 @@ public class Human extends Player {
     
  
     /**
-     * 
+     * This constructor has 2 parameters because the name and choice can change for each player. 
      */
     public Human(String name, boolean hasOdds)
     {
@@ -26,7 +26,7 @@ public class Human extends Player {
 	
 
     /**
-     * Request Human to choose number of fingers.
+     * Ask player to choose a number of fingers.
      */
     public int showFingers()
     {
