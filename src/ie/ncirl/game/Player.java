@@ -4,6 +4,7 @@
  */
 package ie.ncirl.game;
 
+import java.util.ArrayList;
 
 /**
  * This class is the abstract class so it cannot be directly instantiated.
@@ -21,7 +22,13 @@ abstract class Player {
     protected final int maxFingers = 10;
     protected int points = 0;
     
+    protected ArrayList<int[]> roundHistory = new ArrayList<int[]>();
     
+    /**
+     * The showFingers abstract method must be implemented by each class that extend the Player
+     */
+    abstract int showFingers();
+
     /**
      * Function used to set the player choice.
      */
@@ -30,7 +37,13 @@ abstract class Player {
         return hasOdds;
     }
 
-    
+    /**
+     * Retrieve the player's game history
+     */
+    public ArrayList<int[]> getRoundHistory()
+    {
+        return this.roundHistory;
+    }
     /**
      * Function used to set the player choice, Even or Odds.
      */
@@ -38,11 +51,6 @@ abstract class Player {
     {
         this.hasOdds = hasOdds;
     }
-
-    /**
-     * The showFingers abstract method must be implemented by each class that extend the Player
-     */
-    abstract int showFingers();
 
     // Getters and Setters follow
     public String getName()
@@ -67,8 +75,10 @@ abstract class Player {
     {
         return points;
     }
-    public void setPoints(int points)
+    public void setPoints(int points, int extra)
     {
-        this.points += points;
+        this.points += points + extra;
+        int[] record = {this.getFingers(), points, extra};
+        this.roundHistory.add(record);
     }
 }

@@ -4,6 +4,8 @@
  */
 package ie.ncirl.game;
 
+import java.util.ArrayList;
+
 /**
  * This class controls the gameplay and the players
  */
@@ -62,6 +64,7 @@ public class GameController
                     + this.human.getPoints());
             this.checkWinner();
         }
+        this.displayResults();
         this.end();
     }
 
@@ -78,30 +81,38 @@ public class GameController
         {
             if (this.human.hasOdds)
             {
-                this.computer.setPoints(this.roundPoints);
                 if (computerFinger > humanFingers)
-                    this.computer.setPoints(this.extraPoints);
+                    this.computer.setPoints(this.roundPoints, this.extraPoints);
+                else
+                    this.computer.setPoints(this.roundPoints, 0);
+                this.human.setPoints(0, 0);
             }
             else
             {
-                this.human.setPoints(this.roundPoints);
                 if (humanFingers > computerFinger)
-                    this.human.setPoints(this.extraPoints);
+                    this.human.setPoints(this.roundPoints, this.extraPoints);
+                else
+                    this.human.setPoints(this.roundPoints, 0);
+                this.computer.setPoints(0, 0);
             }
         }
         else // when the sum is odd
         {
             if (this.human.hasOdds)
             {
-                this.human.setPoints(this.roundPoints);
                 if (humanFingers > computerFinger)
-                    this.human.setPoints(this.extraPoints);
+                    this.human.setPoints(this.roundPoints, this.extraPoints);
+                else
+                    this.human.setPoints(this.roundPoints, 0);
+                this.computer.setPoints(0, 0);
             }
             else
             {
-                this.computer.setPoints(this.roundPoints);
                 if (computerFinger > humanFingers)
-                    this.computer.setPoints(this.extraPoints);
+                    this.computer.setPoints(this.roundPoints, this.extraPoints);
+                else
+                    this.computer.setPoints(this.roundPoints, 0);
+                this.human.setPoints(0, 0);
             }
         }
     }
@@ -126,5 +137,27 @@ public class GameController
             System.out.println(this.human.getName() + " won the game!");
         else if (this.computer.getPoints() >= this.winningPoints)
             System.out.println(this.computer.getName() + " won the game!");
+    }
+
+    private void displayResults()
+    {
+        ArrayList<int[]> computerHist = this.computer.getRoundHistory();
+        ArrayList<int[]> humanHist = this.human.getRoundHistory();
+        
+        System.out.println("\nGame results:");
+        System.out.format("%5s | %-18s | %s\n", "", this.computer.getName(), this.human.getName());
+        System.out.println("Round | Fin. | Pts. | Ext. | Fin. | Pts. | Ext.");
+        for (int i = 0; i < this.rounds; i++)
+        {
+            System.out.format("%5d | %4d | %4d | %4d | %4d | %4d | %4d \n",
+                    (i + 1),
+                    computerHist.get(i)[0],
+                    computerHist.get(i)[1],
+                    computerHist.get(i)[2],
+                    humanHist.get(i)[0],
+                    humanHist.get(i)[1],
+                    humanHist.get(i)[2]
+                    );
+        }
     }
 }
