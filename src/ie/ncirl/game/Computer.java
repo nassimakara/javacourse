@@ -18,7 +18,6 @@ public class Computer extends Player
         this.setName("Computer");
     }
     
-    // 
     /**
      * Function used to randomly generate total fingers per play. 
      */

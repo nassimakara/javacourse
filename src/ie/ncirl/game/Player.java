@@ -21,6 +21,9 @@ abstract class Player {
     protected final int minFingers = 1;
     protected final int maxFingers = 10;
     protected int points = 0;
+    protected int extras = 0;    
+    protected int roundsWins = 0;
+    protected int roundsLost = 0;
     
     protected ArrayList<int[]> roundHistory = new ArrayList<int[]>();
     
@@ -51,6 +54,36 @@ abstract class Player {
     {
         this.hasOdds = hasOdds;
     }
+    
+    /**
+     * Method invoked whenever a player looses a round
+     */
+    public void loose()
+    {
+        this.roundsLost++;
+        int[] record = {this.getFingers(), 0, 0};
+        this.roundHistory.add(record);
+    }
+    
+    /**
+     * Method invoked whenever a player wins a round
+     */
+    public void win(int points, int extra)
+    {
+        this.roundsWins++;
+        this.points += points;
+        this.extras += extra;
+        int[] record = {this.getFingers(), points, extra};
+        this.roundHistory.add(record);
+    }
+
+    /**
+     * Return the sum of points and extra points scored by the player
+     */
+    public int getScore()
+    {
+        return points + extras;
+    }
 
     // Getters and Setters follow
     public String getName()
@@ -70,15 +103,25 @@ abstract class Player {
     {
         this.fingers = fingers;
     }
-    
+
     public int getPoints()
     {
         return points;
     }
-    public void setPoints(int points, int extra)
+
+    public int getExtras()
     {
-        this.points += points + extra;
-        int[] record = {this.getFingers(), points, extra};
-        this.roundHistory.add(record);
+        return extras;
     }
+
+    public int getRoundsWins()
+    {
+        return roundsWins;
+    }
+
+    public int getRoundsLost()
+    {
+        return roundsLost;
+    }
+    
 }
