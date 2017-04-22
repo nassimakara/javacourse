@@ -1,112 +1,82 @@
+/**
+ * @author Nassima Kara (Student No. 16134613)
+ * @author Lorenzo Cipriani (Student No. 16138457)
+ */
 package ie.ncirl.game;
+
 import java.util.Scanner;
 
 /**
  * This class controls the gameplay and the players
- * @author Nassima Kara Student id  x16134613
  */
-public class GameController {
+public class GameController
+{
 
-	//declare instance variables
-	private int rounds;
-    private final int  winningPoints = 6;
-    private int computerPoints;
-    private int humanPoints;
+    // Declare instance constants
+    private final int roundPoints = 2;
+    private final int winningPoints = 6;
 
+    // declare instance variables
+    private int rounds = 0;
+    private Human human;
+    private Computer computer;
 
-    // declare constructors
-    public void start(String name, bool hasOdds) {
-
-		Human hp = new Human(name);
-		Computer cp = new Computer();
-
-		Scanner sc = new Scanner(System.in);// declare and create an object of type Scanner to allow reading from the keyboard
-		System.out.print("Choose a number between 1 and 10: ");
-		int humanFingers = sc.nextInt();// read the number provided by the player
-
-		if (isValid(humanFingers))
-		{
-			int computerFingers = cp.getFingers();
-
-			this.calc(humanFingers, computerFinger);
-
-		}
-		else
-		{
-          System.out.println("Number of fingers non valid. Start again");
-		}
-	}
-
-	private bool isValid(int fingers)
-	{
-
-	}
-
-// declare a method to implement the actual processing: determine the total number of fingers displayed by the human player and the computer
-
-	private void calc(int humanFingers, int computerFinger){
-
-		int fingers=int humanFingers + int computerFinger;
-
-		//Check if the number is Odd or Even
-			if (int fingers % 2 ==0 && humanFingers %2==0){
-			System.out.println("Player won";}
-
-			else if (int fingers % 2 ==1 && computerFinger %2==0){
-			System.out.println("Computer won";}
-
-			else if (int fingers % 2 ==1 && humanFingers %2==0){
-			System.out.println("Player won";}
-
-			else if (int fingers % 2 ==1 && computerFinger %2==0){
-			System.out.println("Computer won";}
-
-
-		//Assign the points
-
-
-
-
-
+    /**
+     * This method initialize a new game
+     * 
+     * @param name
+     * @param hasOdds
+     */
+    public void start(String name, boolean hasOdds)
+    {
+        this.human = new Human(name, hasOdds);
+        this.computer = new Computer();
+        this.play();
     }
 
-	public void end() {
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    public void end()
+    {
+        System.out.println("Goodbye " + this.human.getName() + ". Thank you for playing!");
+        System.exit(0);
+    }
 
-		if (computerPoints || humanPoints==6){
-		System.out.println(" The game is over, do you want to play another game?"}
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    private void play()
+    {
+        while (this.human.getPoints() < this.winningPoints && this.computer.getPoints() < this.winningPoints)
+        {
+            int humanFingers = this.human.showFingers();
+            if (humanFingers==0) this.end();
+            this.assignPoints(humanFingers, this.computer.showFingers());
+            System.out.println("Round " + ++this.rounds);
+            System.out.println("Computer " + this.computer.getPoints() + " - " + this.human.name + " " + this.human.getPoints());
+        }
+        this.end();
+    }
 
-		else if (computerPoints || humanPoints!=6){
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    private void assignPoints(int humanFingers, int computerFinger)
+    {
+		int allFingers = humanFingers + computerFinger;
 
-		System.out.println(" Do you want to play another round?"}
- 	}
-
+		// when the sum is even
+		if (allFingers%2==0)
+	    {
+		    if (this.human.hasOdds) this.computer.setPoints(this.roundPoints);
+	    }
+		else // when the sum is odd
+		{
+            if (this.human.hasOdds) this.human.setPoints(this.roundPoints);		    
+		}
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

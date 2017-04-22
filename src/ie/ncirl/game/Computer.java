@@ -10,6 +10,14 @@ package ie.ncirl.game;
  */
 public class Computer extends Player
 {
+    /**
+     * This class constructor is used just to set the player's name to "Computer"
+     */
+    public Computer()
+    {
+        this.setName("Computer");
+    }
+    
     // TODO: comment is missing
     /**
      * 
