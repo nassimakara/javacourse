@@ -6,7 +6,9 @@ package ie.ncirl.game;
 
 
 /**
- * This class is the abstract class (Human and Computer)
+ * This class is the abstract class so it cannot be directly instantiated.
+ * Human and Computer can be instantiated. 
+ * In this class you have all methods which are in common for all the classes that might extend this one.
  */
 abstract class Player {
 
@@ -29,13 +31,21 @@ abstract class Player {
 
     
     /**
-     * Function used to set the player choice, Even or Odds
+     * Function used to set the player choice, Even or Odds.
      */
     public void hasOdds(boolean hasOdds)
     {
         this.hasOdds = hasOdds;
     }
 
+    /**
+     * 
+     * @return
+     */
+    public int showFingers()
+    {
+    	return this.getFingers();
+    }
     // Getters and Setters follow
     public String getName()
     {

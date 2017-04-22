@@ -6,7 +6,7 @@ package ie.ncirl.game;
 
 
 /**
- * This class controls the computer
+ * This class is to set the computer
  */
 public class Computer extends Player
 {
@@ -20,7 +20,7 @@ public class Computer extends Player
     
     // 
     /**
-     * Function used to generate total fingers per play. 
+     * Function used to randomly generate total fingers per play. 
      */
     public int showFingers()
     {
