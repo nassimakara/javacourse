@@ -4,9 +4,9 @@
  */
 package ie.ncirl.game;
 
-// TODO: comment is missing
+
 /**
- * 
+ * This class controls the computer
  */
 public class Computer extends Player
 {
@@ -18,9 +18,9 @@ public class Computer extends Player
         this.setName("Computer");
     }
     
-    // TODO: comment is missing
+    // 
     /**
-     * 
+     * Function used to generate total fingers per play. 
      */
     public int showFingers()
     {
