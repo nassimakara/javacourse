@@ -1,27 +1,48 @@
+/**
+ * @author Zekpa Ossabou Sebastien (Student No. 16135091)
+ * @author Lorenzo Cipriani (Student No. 16138457)
+ */
 package ie.ncirl.game;
-// FIXME: why do you import classes if you don't use it???
-// (wrong name BTW: Scanner and not scanner) 
-import java.util.scanner;
 
-// FIXME: comment is missing
-// FIXME: the class that it extends is called Player and not Players
-public class Human extends Players{
+import java.util.Scanner;
+
+// TODO: comment is missing
+/**
+ * 
+ */
+public class Human extends Player {
 	
+    
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    public Human(String name, boolean hasOdds)
+    {
+        this.setName(name);
+        this.hasOdds(hasOdds);
+    }
 	
-	// FIXME: Why is this method defined here? It's the same for both Human and Computer, so it should be only into Player
-	 public void setOddsorEven(boolean isOddsorEven) {
-		 	// FIXME:  this. what??? where is the attribute isOddsorEven defined in this class
-	        this.isOddsorEven = isOddsorEven;
-	    }
-	 
-	 // FIXME:  the GameController asks to both players to show their fingers 
-	 // so the method should be called getFingers() or showFingers()
-	 public void setFingers(int fingers) {
-		 	// FIXME:  this. what??? where is the attribute fingers defined in this class
-	        this.fingers = fingers;
-	    }
-	 
-	 
-	 
-	
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    public int showFingers()
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print(this.name + ", please choose a number of fingers to show between 1 and 10. Type 0 to quit: ");
+        int fingers = sc.nextInt();
+        
+        // check if the player's choice is valid
+        while (fingers < 0 && fingers > this.maxFingers)
+        {
+            System.out.print(fingers + " is not a valid number; please retry with a number between 1 and 10 or 0 to quit: ");
+            fingers = sc.nextInt();
+        }
+        sc.close();
+        this.setFingers(fingers);
+        
+        return fingers;
+    }
 }

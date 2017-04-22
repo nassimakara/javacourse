@@ -32,20 +32,21 @@ public class Morra
         }
         
         boolean hasOdds = false;
+        // check the player's choice and set the variables to initialize the game
         switch (choice)
         {
-            case 0:
+            case 0: // the player wants to quit
                 System.out.println("See you, " + name + "...");
                 System.exit(0);
                 break;
-            case 1:
+            case 1: // the player chose to play with odds
                 hasOdds = true;
                 break;
-            case 2:
+            case 2: // the player chose to play with evens
                 hasOdds = false;
                 break;
         }
-        // pass the control to the GameController
+        // pass the control of the program to the GameController
         GameController game = new GameController();
         game.start(name, hasOdds);            
     }

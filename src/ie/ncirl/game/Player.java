@@ -1,65 +1,66 @@
+/**
+ * @author Zekpa Ossabou Sebastien (Student No. 16135091)
+ * @author Lorenzo Cipriani (Student No. 16138457)
+ */
 package ie.ncirl.game;
 
-// 
-import java.util.ArrayList;
-
+// TODO: comment is missing
+/**
+ * 
+ */
 public class Player {
 
-    protected ArrayList handHistory;
+    protected String name;
+    protected boolean hasOdds;
+    
     protected int fingers;
-    protected boolean isOdds;
-
+    protected final int minFingers = 1;
+    protected final int maxFingers = 10;
     protected int points = 0;
-
-    public boolean isOdds() {
-        return isOdds;
+    
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    public boolean hasOdds()
+    {
+        return hasOdds;
     }
 
-    public Player() {
-        this.handHistory = new ArrayList();
+    // TODO: comment is missing
+    /**
+     * 
+     */
+    public void hasOdds(boolean hasOdds)
+    {
+        this.hasOdds = hasOdds;
     }
 
-    public void setIsOdds(boolean isOdds) {
-        this.isOdds = isOdds;
+    // Getters and Setters follow
+    public String getName()
+    {
+        return name;
     }
-
-    public int getFingers() {
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    
+    public int getFingers()
+    {
         return fingers;
     }
-
-    public void setFingers(int fingers) {
+    public void setFingers(int fingers)
+    {
         this.fingers = fingers;
     }
-
-    public void saveHandHistory(int finger){
-
-        if(handHistory != null) {
-            handHistory.add(finger);
-        }
-    }
-    public ArrayList getHandHistory() {
-        return handHistory;
-    }
-
-    public void clearHistory(){
-        if(!handHistory.isEmpty())
-        {
-            handHistory.clear();
-        }
-    }
-
-    public int getPoints() {
+    
+    public int getPoints()
+    {
         return points;
     }
-
-    public void incrementPoints(){
-        points++;
-    }
-
-
-    public void clearPoints()
+    public void setPoints(int points)
     {
-       points = 0;
+        this.points = points;
     }
-
 }
