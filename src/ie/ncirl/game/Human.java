@@ -6,15 +6,15 @@ package ie.ncirl.game;
 
 import java.util.Scanner;
 
-// TODO: comment is missing
+
 /**
- * 
+ * Player is the abstract class. 
  */
 public class Human extends Player {
 	
     private Scanner sc = new Scanner(System.in);
     
-    // TODO: comment is missing
+ 
     /**
      * 
      */
@@ -24,9 +24,9 @@ public class Human extends Player {
         this.hasOdds(hasOdds);
     }
 	
-    // TODO: comment is missing
+
     /**
-     * 
+     * Request Human to choose number of fingers.
      */
     public int showFingers()
     {
